@@ -14,16 +14,16 @@ Tech-stack :
 
 Features :
 
-1. Admin (login needed)
- 1. Assign Course
- 2. Teacher List View
- 3. Student List View
-2. Teacher (login needed)
-  3. Course List View
-3. Course Registration (login needed)
-3. Student (login needed)
-  1. Course Registration
-  2. Course List View
+- Admin (login needed)
+  - Assign Course
+- Teacher List View
+  - Student List View
+- Teacher (login needed)
+   - Course List View
+- Course Registration (login needed)
+- Student (login needed)
+   - Course Registration
+   - Course List View
 
 Details Preview :
 
