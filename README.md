@@ -25,6 +25,6 @@ Features :
    - Course Registration
    - Course List View
 
-Details Preview :
+Preview :
 
 [https://scribehow.com/embed/Workflow__07rJKQ-6R6-9HIULlJ3gRQ](https://scribehow.com/embed/Workflow__07rJKQ-6R6-9HIULlJ3gRQ)
