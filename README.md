@@ -1,4 +1,4 @@
-# online-course-management-system
+# Online_Course_Management_System
 
 **Description** :
 ===
