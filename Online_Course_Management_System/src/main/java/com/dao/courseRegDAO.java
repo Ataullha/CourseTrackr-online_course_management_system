@@ -62,6 +62,35 @@ public class courseRegDAO {
 		return list;
 	}
 
+//	public List<courseRegistration> getAllStudentByCourseName(String courseName, int teacherId) {
+//	    List<courseRegistration> list = new ArrayList<>();
+//	    courseRegistration cr = null;
+//	    try {
+//	        String sql = "SELECT cr.*, sd.full_name AS student_name " +
+//	                     "FROM course_reg cr " +
+//	                     "JOIN student_dtls sd ON cr.studentID = sd.id " +
+//	                     "JOIN teacher t ON t.course = cr.courseName " +
+//	                     "WHERE cr.courseName = ? AND t.id = ?";
+//	        PreparedStatement ps = conn.prepareStatement(sql);
+//	        ps.setString(1, courseName);
+//	        ps.setInt(2, teacherId);
+//	        ResultSet rs = ps.executeQuery();
+//	        while (rs.next()) {
+//	            cr = new courseRegistration();
+//	            cr.setId(rs.getInt("id"));
+//	            cr.setStudentID(rs.getInt("studentID"));
+//	            cr.setFullName(rs.getString("fullName"));
+//	            cr.setRegNO(rs.getString("regNO"));
+//	            cr.setCourseName(rs.getString("courseName"));
+//	            //cr.setStudentName(rs.getString("student_name"));
+//	            list.add(cr);
+//	        }
+//	    } catch (Exception e) {
+//	        e.printStackTrace();
+//	    }
+//	    return list;
+//	}
+
 	public List<courseRegistration> getAllStudentByCourseName(String courseName) {
 
 		List<courseRegistration> list = new ArrayList<courseRegistration>();

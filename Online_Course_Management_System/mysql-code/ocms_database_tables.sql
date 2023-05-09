@@ -27,3 +27,7 @@ CREATE TABLE `course_reg` (
   KEY `studentID_idx` (`studentID`),
   CONSTRAINT `studentID` FOREIGN KEY (`studentID`) REFERENCES `student_dtls` (`id`)
 ) ENGINE=InnoDB AUTO_INCREMENT=5 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+
+--DELETE FROM teacher;
+--DELETE FROM course_reg;
+--DELETE FROM student_dtls;
