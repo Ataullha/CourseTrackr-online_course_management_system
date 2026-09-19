@@ -70,7 +70,7 @@ public class StudentDao {
 			}
 			
 		} catch (Exception e) {
-			// TODO: handle exception
+			e.printStackTrace(); //exception handled
 		}
 		
 		return u;
